@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  background-color: var(--card-background-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.containerShow {
+  transform: translateY(0);
+}
+
+.containerHide {
+  transform: translateY(100%);
+}
+
+.high {
+  height: 62vh;
+}
+
+.medium {
+  height: 50vh;
+}
+
+.small {
+  height: 30vh;
+}
+
+.fullScreen {
+  height: 100vh;
+}
+
+.childrenContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  z-index: 9999;
+  position: relative;
+  overflow-y: auto;
+}
+
+.backButton,
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.backButton {
+  left: 1rem;
+}
+
+.closeButton {
+  right: 1rem;
+}

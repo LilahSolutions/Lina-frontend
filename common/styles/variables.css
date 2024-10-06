@@ -1,0 +1,41 @@
+/* Tokens */
+:root {
+  /* Mode 1 */
+  /* color */
+  --basic-color-background-1: #0000000d;
+  --basic-color-background-2: #d9d9d9;
+  --basic-color-background-3: #ffffff;
+  --basic-color-background-4: #ededed;
+  --basic-color-background-5: #00000026;
+  --basic-color-primary-10: #ffffff;
+  --basic-color-primary-40: #ffffff;
+  --basic-color-primary-50: #395e95;
+  --basic-color-primary-60: #ffffff;
+  --basic-color-primary-basic: var(--basic-color-primary-50);
+  --basic-color-secondary-50: #ffffff;
+  --basic-color-secondary-70: #343434;
+  --basic-color-secondary-80: #9dc1f8;
+  --basic-color-secondary-basic: var(--basic-color-secondary-70);
+  --basic-color-system-error: #c00000;
+  --basic-color-system-info: #f3f4f6;
+  --basic-color-system-success: #009689;
+  --basic-color-system-warning: #d9a92f;
+  --basic-color-tertiary-50: #ededed;
+  --basic-color-tertiary-basic: var(--basic-color-tertiary-50);
+  --basic-font-color-primary: var(--basic-color-primary-basic);
+  --basic-font-color-secondary: var(--basic-color-secondary-basic);
+  /* number */
+  --basic-font-size-xs: 0.3125rem;
+  --basic-font-size-s: 0.625rem;
+  --basic-font-size-m: 0.9375rem;
+  --basic-font-size-l: 1.25rem;
+  --basic-font-size-xl: 1.5625rem;
+  --basic-size--: 0rem;
+  --basic-size-xs: 0.3125rem;
+  --basic-size-s: 0.625rem;
+  --basic-size-m: 0.9375rem;
+  --basic-size-l: 1.25rem;
+  --basic-size-xl: 1.5625rem;
+  --basic-size-xxl: 1.875rem;
+  --basic-size-super: 2.5rem;
+}
