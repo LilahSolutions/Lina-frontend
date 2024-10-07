@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const basePath = '/agrobal';
+const basePath = '/lina';
 
 const nextConfig = {
   reactStrictMode: false,

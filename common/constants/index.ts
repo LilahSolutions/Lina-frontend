@@ -15,7 +15,7 @@ export const isServerSide = typeof window === 'undefined';
 /** This is the Frontend base path, it is used to build and deploy the application. */
 export const basePath = process.env.basePath ?? '';
 
-const TEST_URL = 'http://10.0.2.114:8080';
+const TEST_URL = 'http://10.0.2.114:8080'; // this url is from my friend's computer, you can change it to your own.
 
 // This is the Backend base url, it is used to make requests to the API.
 // WARNING: This BASE_PATH variable is only available on the server side.
